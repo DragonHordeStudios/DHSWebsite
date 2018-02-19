@@ -1,9 +1,10 @@
 <?php
 
-$active = 'home';
+$TITLE = 'Home';
+$PAGENAME = 'home';
+$DESCRIPTION = 'My homepage.';
 
-include_once('includes/header.php');
-
-?>
-
-<?php include_once('includes/footer.php'); ?>
+include_once('templates/header.php'); ?>
+<h1>Hello World!</h1>
+<?php
+include_once('templates/footer.php');
